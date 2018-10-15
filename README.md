@@ -1,26 +1,19 @@
-Alien Invasion
-==============
-This is the sample game that is built in the first three Chapter of
-mobile HTML5 Game Development.
+# Demo of a GitHub App to enforce a workflow
 
-It is released under both the GPL and MIT license to do with what you will.
+[Work in Progress](https://probot.github.io/apps/wip/) sets a status using the GitHub API. This status can then be used to block a merge.
 
-Playable Version: 
-http://cykod.github.com/AlienInvasion/
+### See it in action
 
-Bit.ly link for mobile: 
-http://bit.ly/html5-invasion
+1. Fork this repository.
+1. Make a change to the codebase.
+1. Create a pull request against the upstream repository with _WIP_ in the title.
+1. Remove _WIP_ from the title, merge isn't blocked :tada:.
 
+### Install it yourself
 
-If you make an interesting fork or enhancement of the game, let me know and it'll get
-linked to here. This original repo will stay matching the code in the book.
-
-For more  [HTML5 Game Development](http://www.html5gamedevelopment.org) resources, see:
-
-* [HTML5 Game Demos](http://www.html5gamedevelopment.org/html5-demos)
-* [HTML5 GameDev Tutorials](http://www.html5gamedevelopment.org/html5-game-tutorials)
-* [HTML5 Game Development News](http://www.html5gamedevelopment.org/html5-news)
-* [HTML5 Game Engines](http://www.html5gamedevelopment.org/html5-engines)
-
-
-
+1. Install [Work in Progress](https://probot.github.io/apps/wip/) by clicking "Add to GitHub"
+1. Install it on your fork
+1. Make a change to the codebase.
+1. Create a pull request against your repository with _WIP_ in the title.
+1. Remove _WIP_ from the title, merge isn't blocked :tada:.
+1. Merge your PR. 
