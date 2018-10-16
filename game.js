@@ -40,7 +40,7 @@ var startGame = function() {
     Game.setBoard(2,new Starfield(100,1.0,50));
   }  
   Game.setBoard(3,new TitleScreen("Alien Invasion", 
-                                  "Press fire to start playing",
+                                  "Press fire to start playing!",
                                   playGame));
 };
 
